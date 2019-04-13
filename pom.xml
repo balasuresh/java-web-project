@@ -6,7 +6,7 @@
     <groupId>com.mkyong.web</groupId>
     <artifactId>java-web-project</artifactId>
     <packaging>war</packaging>
-    <version>1.1_${env.BUILD_NUMBER}_${BUILD_DATE_FORMATTED, "yyyy-MM-dd"}</version>
+    <version>1.1_${env.BUILD_NUMBER}_${env.BUILD_DATE_FORMATTED}</version>
     <name>java-web-project Maven Webapp</name>
     <url>http://maven.apache.org</url>
     <properties>
