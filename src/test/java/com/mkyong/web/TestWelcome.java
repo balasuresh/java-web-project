@@ -44,7 +44,7 @@ public class TestWelcome {
                 .andExpect(model().attribute("msg", "Hello World"));
     }
 
-    // this is dummy test added ********************************** 
+    /* this is dummy test added ********************************** 
     @Test public void helloWorld() throws Exception {
         mockMvc.perform(get("/hello").accept(MediaType.TEXT_PLAIN))
                 .andExpect(status().isOk())
@@ -52,4 +52,5 @@ public class TestWelcome {
                 .andExpect(content().string("Hello World!"));
     }
     // this is dummy test added ********************************** 
+    */
 }
